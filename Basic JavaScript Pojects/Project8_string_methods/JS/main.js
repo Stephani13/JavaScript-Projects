@@ -10,16 +10,16 @@ function mySentence(){
 
 function Slice_Function(){
     var sentence = "The sun goes in hiding to give pass to the night, which envolves the moon making it brighter"
-    var Section = sentence.slice(4,7);
+    var Section = sentence.slice(4,7);//return the letters between 4 and 7
     document.getElementById("Slice").innerHTML = Section
 }
 
 function Upper(){
     var sentence = "Hello, World!"
-    var upper_case = sentence.toUpperCase();
+    var upper_case = sentence.toUpperCase();//upper case whole word
     var number = 180
     var presicion = 1089.5546392
-    let result = number.valueOf()
+    let result = number.valueOf()//the valueof() method assigns the variable result the value of the var number
     document.getElementById("UpperCase").innerHTML = upper_case + number.toString() + " " + presicion.toPrecision(5) + 
     " " + number.toFixed() + " " + result;
     //convert a number to string, put presicion on a number 
