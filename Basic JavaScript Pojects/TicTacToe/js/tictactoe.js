@@ -24,9 +24,7 @@ function placeXOrO(squareNumber) {
             //if acivePlayer is equal to O , the o.png id placed in html.
             select.style.backgroundImage = 'url("images/o.png")';
         }
-    }
-
-    //squareNumber and activePlayer are concatenated together and added to array
+         //squareNumber and activePlayer are concatenated together and added to array
     selectedSquares.push(squareNumber + activePlayer);
     //This calls a  function to ccheck for any win conditions
     checkWinConditions();
@@ -76,6 +74,9 @@ function computersTurn() {
             success = true
         }
     }
+    }
+
+   
 }
 
 function checkWinConditions() {
