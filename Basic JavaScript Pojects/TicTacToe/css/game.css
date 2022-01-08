@@ -1,0 +1,35 @@
+/*This container includes our table and camvas.*/
+.container {
+    width: 608px;
+    /*this preoperty centers our container*/
+    margin: 0 auto;
+    margin-top: 50%;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+
+table {
+    border-collapse: collapse; /*this property colapse table borders into 1 border*/
+    border-style: hidden; /*this hides outer borderss on table*/
+}
+
+
+
+td {
+    cursor: pointer;
+    border: 4px solid black;
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+
+}
+
+canvas {
+    position: absolute;
+    z-index: 10;
+    pointer-events: none;
+}

@@ -31,7 +31,7 @@
         <button onclick = "Name()">click!!</button>
         <p class="class">3 + 3</p>
         
-		<canvas id="ID_Name" width="500" height="250" style="border: 2px solid black"></canvas>
+		<canvas id="ID_Name" width="500" height="250" style="border: 2ps solid black"></canvas>
         <script>
             var c = document.getElementById("ID_Name")
             var ctx = c.getContext("2d");
