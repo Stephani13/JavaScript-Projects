@@ -227,8 +227,8 @@ function resetGame() {
     for (let i = 0; i < 9; i++) {
         let square = document.getElementById(String(i))
 
-        square.style.backgroundImage = " "
+        square.style.backgroundImage = ''
     }
 
-    selectedSquares = []
+    selectedSquares = [];
 }
