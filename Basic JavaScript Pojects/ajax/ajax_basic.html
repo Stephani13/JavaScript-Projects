@@ -20,16 +20,16 @@
 			
 			//step 3: define the ajax response callback method
 			ajax.onreadystatechange = function() {
-				if (ajax.readyState = 4) {
+				if (ajax.readyState == 4) {
 					document.getElementById("content").innerHTMML = ajax.responseText;
 				}
-			}
+			};
 			
 			//step 4: send the ajax request for data
 			function getContent() {
 				ajax.send();
 				document.getElementById("btn_content").style.display = 'none';
-			}
+			};
 								
 			
 			
